@@ -73,7 +73,8 @@ input[type="text"]::placeholder {
     height: auto;
     text-align: center;
     padding: 2em;
-    /* display: none; */
+    display: none;
+    color: var(--clr-primary);
 }
 
 .weather-card p {
@@ -107,18 +108,17 @@ input[type="text"]::placeholder {
     font-size: 1.2rem;
 }
 
-/* .col {
-    display: flex;
-    align-items: center;
-    text-align: left;
-    gap: .2em;
-} */
-
 .col img {
     width: 3em;
 }
 
 p.description {
     font-size: 2rem;
+}
+
+p.error-message {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--clr-primary);
 }
 
