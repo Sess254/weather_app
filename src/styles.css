@@ -3,7 +3,7 @@
     --clr-secondary: #4a4d57;
     --clr-accent: #00ffc4;
     --clr-text: #ffffff;
-    --clr-warning: #fa1736;
+    --clr-warning: #FB5607;
     --clr-flare: #3A86FF;
 }
 
@@ -46,7 +46,7 @@ input[type="text"] {
 }
 
 input[type="text"]::placeholder {
-    color: var(--clr-primary);
+    color: var(--clr-secondary);
 }
 
 .submit-btn {
@@ -72,6 +72,8 @@ input[type="text"]::placeholder {
     max-width: 570px;
     height: auto;
     text-align: center;
+    padding: 2em;
+    /* display: none; */
 }
 
 .weather-card p {
@@ -105,14 +107,18 @@ input[type="text"]::placeholder {
     font-size: 1.2rem;
 }
 
-.col {
+/* .col {
     display: flex;
     align-items: center;
     text-align: left;
     gap: .2em;
-}
+} */
 
 .col img {
     width: 3em;
+}
+
+p.description {
+    font-size: 2rem;
 }
 
