@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script defer src="main.js"></script></head>
+<body>
+    <header>
+        <form action="" data-user-input-form>
+            <input 
+                type="text"
+                placeholder="Enter city name"
+                data-user-input
+            >
+            <button class="submit-btn" data-submit-btn>Search</button>
+        </form>
+
+    </header>
+
+    <main>
+        <section class="error">
+            <p class="error-message"></p>
+        </section>
+        <section class="weather-results">
+            <div class="weather-card">
+                <img class="weather-icon" src="6e4f357e69e53710441a.svg" alt="">
+                <h1 class="temp">20&deg;C</h1>
+                <h2 class="city">Nairobi</h2>
+                <p class="description"></p>
+                <div class="details">
+                    <div class="col">
+                        <img src="e2b2eec2465f62f89bdf.svg" alt="">
+                        <div>
+                            <p class="wind">20mp/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="748970d76b1f291943d7.svg" alt="">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>Humidity</p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
